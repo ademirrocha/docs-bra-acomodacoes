@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/shared.css">
+  <style type="text/css">
+   th{
+     border:1px; border-style:solid; border-color:black;
+   }
+   .iten{
+      border:1px; border-style:solid; border-color:black;
+   }
+  </style>
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3 grey-text text-darken-4">
+        <a href="https://requisitos-2018-2.github.io/BRA-Acomodações" class="brand-logo left ">
+          <span class="fa fa-hotel"></span> BRA-Acomodações
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/Requisitos-2018-2/BRA-Acomodações" class="hide-on-small-only">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+   <section id="main">
+    <div class="container center-align">
+      <div class="row valign-wrapper">
+        <div class="col s12 center-align">
+         <h2> <span class="fa fa-bookmark"></span> Léxicos - Geral</h2>
+         <p>2018.2</p>
+        </div>
+      </div>
+  </section>
+ <div id="BRA-Acomodações" class="container ">
+    <h4>LG01 - BRA-Acomodações</h4>
+    <table class="responsive-table centered">
+      <tr>
+        <th class="th">
+          Noção
+        </th>
+        <th class="th">
+          Aplicativo que promove a intermediação entre prestadores de serviço <a href="lex_geral.html#ANFITRIAO">Anfitrião</a> e consumidores de serviço
+          <a href="lex_geral.html#HOSPEDE">Hóspede</a>
+          </th>
+
+      </tr>
+      <tr>
+        <th class="th">
+          Impacto
+        </th>
+        <th class="th"><a href="lex_geral.html#HOSPEDE"> Hóspede</a> podem contratar serviços.<br>
+        <a href="lex_geral.html#ANFITRIAO">Anfitrião</a> pode ofertar e vender serviços.</th>
+      </tr>
+
+      <tr>
+        <th class="th">
+          Classificação
+        </th>
+        <th class="th">Objeto</th>
+      </tr>
+    </table>
+  </div>
+  <div id="USUARIO" class="container ">
+      <h4>LG02 - Usuário</h4>
+      <table class="responsive-table centered">
+        <tr>
+          <th class="th">
+            Sinônimos
+          </th>
+          <th class="th">
+              user<br>
+              cliente<br>
+              utilizador<br>
+          </th>
+        </tr>
+        <tr>
+          <th class="th">
+            Noção
+          </th>
+          <th class="th">
+              Qualquer tipo de pessoa cadastrada ou não no sistema.
+              Pode ser diferenciado em : <a href="lex_geral.html#HOSPEDE">Hóspede</a>,
+              <a href="lex_geral.html#ANFITRIAO">Anfitrião</a>
+               e <a href="lex_geral.html#VISITANTE">Visitante</a>
+            </th>
+
+        </tr>
+        <tr>
+          <th class="th">
+            Impacto
+          </th>
+          <th class="th">
+              O <a href="lex_geral.html#USUARIO">usuário</a> poderá utilizar os serviços do
+             <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a><br>
+             O <a href="lex_geral.html#USUARIO">usuário</a> poderá se cadastrar no <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a><br>
+             O <a href="lex_geral#USUARIO">usuário</a> pode realizar Anúncio para divulgar a sua acomodação no <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a><br>
+
+        </tr>
+
+        <tr>
+          <th class="th">
+            Classificação
+          </th>
+          <th class="th">Objeto</th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="ACOMODACAO" class="container ">
+        <h4>LG03 - Acomodação</h4>
+        <table class="responsive-table centered">
+          <tr>
+            <th class="th">
+              Sinônimos
+            </th>
+            <th class="th">
+                aposentos<br>
+                local residencial<br>
+            </th>
+          </tr>
+          <tr>
+            <th class="th">
+              Noção
+            </th>
+            <th class="th">
+                Divisão, compartimento, cômodo onde as pessoas se instalam, moram, se hospedam.<br>
+                Local que o <a href="lex_geral.html#ANFITRIAO">Anfitrião</a>disponibiliza para locação.
+              </th>
+          </tr>
+          <tr>
+            <th class="th">
+              Impacto
+            </th>
+            <th class="th">
+                <a href="lex_geral.html#ANFITRIAO">Anfitrião</a> disponibiliza através de <a href="lex_geral.html#ANUNCIO">Anúncio</a>
+                para que os <a href="lex_geral.html#HOSPEDE">hóspedes</a> possa alugar.
+          </tr>
+          <tr>
+            <th class="th">
+              Classificação
+            </th>
+            <th class="th">Objeto</th>
+          </tr>
+        </table>
+      </div>
+
+
+      <div id="ANUNCIO" class="container ">
+          <h4>LG04 - Anúncio</h4>
+          <table class="responsive-table centered">
+            <tr>
+              <th class="th">
+                Sinônimos
+              </th>
+              <th class="th">
+                  propaganda<br>
+                  publicidade<br>
+              </th>
+            </tr>
+            <tr>
+              <th class="th">
+                Noção
+              </th>
+              <th class="th">
+                  Notícia ou aviso por meio do qual se divulga algo ao público.
+                </th>
+            </tr>
+            <tr>
+              <th class="th">
+                Impacto
+              </th>
+              <th class="th">
+                  <a href="lex_geral.html#ANFITRIAO">Anfitrião</a>  pode criar um anúncio grátis
+                  Anúncio é realizado pelo <a href="lex_geral.html#ANFITRIAO">Anfitrião</a>
+                  para que possam divulgar o local que querem disponibilizar para os <a href="lex_geral.html#HOSPEDE">hóspedes</a> alugarem.
+
+            </tr>
+            <tr>
+              <th class="th">
+                Classificação
+              </th>
+              <th class="th">Objeto</th>
+            </tr>
+          </table>
+        </div>
+        <div id="ANFITRIAO" class="container ">
+            <h4>LG05 - Anfitrião</h4>
+            <table class="responsive-table centered">
+              <tr>
+                <th class="th">
+                  Sinônimos
+                </th>
+                <th class="th">
+                    host<br>
+                    dono da casa<br>
+                </th>
+              </tr>
+              <tr>
+                <th class="th">
+                  Noção
+                </th>
+                <th class="th">
+                    Um <a href="lex_geral.html#USUARIO">usuário</a> que anuncia algum Serviço atravez do
+                    <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>.<br>
+                    Recebe Remuneração pelo serviço oferecido.<br>
+                    É divido em <a href="lex_geral.html#ANFITRIAO">Anfrião</a>
+                    de Experiencia, <a href="lex_geral.html#ANFITRIAO">Anfrião</a>
+                    de <a href="lex_geral.html#HOSPEDAGEM">Hospedagem</a> e <a href="lex_geral.html#ANFITRIAO">Anfrião</a>
+                    de <a href="lex_geral.html#RESTAURANTE">Restaurante</a>
+                  </th>
+              </tr>
+              <tr>
+                <th class="th">
+                  Impacto
+                </th>
+                <th class="th">
+                <a href="lex_geral.html#HOSPEDE">Hóspedes</a> poderão usufruir do serviço, após realizar o Pagamento.
+              </tr>
+              <tr>
+                <th class="th">
+                  Classificação
+                </th>
+                <th class="th">Objeto</th>
+              </tr>
+            </table>
+          </div>
+
+          <div id="VISITANTE" class="container ">
+              <h4>LG06 - Visitante</h4>
+              <table class="responsive-table centered">
+                <tr>
+                  <th class="th">
+                    Sinônimos
+                  </th>
+                  <th class="th">
+                    <a href="lex_geral.html#USUARIO">Usuário</a> não cadastrado<br>
+                  </th>
+                </tr>
+                <tr>
+                  <th class="th">
+                    Noção
+                  </th>
+                  <th class="th">
+                      Um <a href="lex_geral.html#USUARIO">Usuário</a>
+                      que acessa o <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>sem estar logado.
+                    </th>
+                </tr>
+                <tr>
+                  <th class="th">
+                    Impacto
+                  </th>
+                  <th class="th">
+                  <a href="lex_geral.html#VISITANTE">Visitante</a>pode efetuar busca por
+                  <a href="lex_geral.html#ACOMODACAO"></a> acomodação
+
+                </tr>
+                <tr>
+                  <th class="th">
+                    Classificação
+                  </th>
+                  <th class="th">Objeto</th>
+                </tr>
+              </table>
+            </div>
+
+            <div id="HOSPEDE" class="container ">
+                <h4>LG07 - Hóspede</h4>
+                <table class="responsive-table centered">
+                  <tr>
+                    <th class="th">
+                      Sinônimos
+                    </th>
+                    <th class="th">
+                        guest<br>
+                        visitas<br>
+
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="th">
+                      Noção
+                    </th>
+                    <th class="th">
+                        Um <a href="lex_geral.html#USUARIO">usuário</a>
+                        que contrata um anuncia algum Serviço oferecido por um
+                        <a href="lex_geral.html#ANFITRIAO">Anfitriao</a>.
+                        Faz <a href="lex_geral.html#PAGAMENTO">Pagamento</a> atravéz do <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>.
+                      </th>
+                  </tr>
+                  <tr>
+                    <th class="th">
+                      Impacto
+                    </th>
+                    <th class="th">
+                    <a href="lex_geral.html#ANFITRIAO">Anfitriao</a> recebe pelo
+                    <a href="lex_geral.html#SERVICO">Serviço</a> prestado.
+
+                  </tr>
+                  <tr>
+                    <th class="th">
+                      Classificação
+                    </th>
+                    <th class="th">Objeto</th>
+                  </tr>
+                </table>
+              </div>
+              <div id="SERVICO" class="container ">
+                  <h4>LG08 - Serviço</h4>
+                  <table class="responsive-table centered">
+                    <tr>
+                      <th class="th">
+                        Sinônimos
+                      </th>
+                      <th class="th">
+                          service<br>
+                          emprego<br>
+                          função<br>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th class="th">
+                        Noção
+                      </th>
+                      <th class="th">
+                        Atividade oferecida por um <a href="lex_geral.html#ANFITRIAO">Anfitriao</a>.<br>
+                        <a href="lex_geral.html#HOSPEDE">Hóspede</a>faz Pagamento por utiliza-lo.<br>
+                        Pode ser divido em <a href="lex_geral.html#EXPERIENCIA">Experiencia</a> ,
+                        <a href="lex_geral.html#RESTAURANTE">Restaurante</a> e <a href="lex_geral.html#HOSPEDAGEM"></a>Hospedagem.
+                        </th>
+                    </tr>
+                    <tr>
+                      <th class="th">
+                        Impacto
+                      </th>
+                      <th class="th">
+                          <a href="lex_geral.html#HOSPEDE">Hóspede</a> o utiliza.
+                    </tr>
+                    <tr>
+                      <th class="th">
+                        Classificação
+                      </th>
+                      <th class="th">Objeto</th>
+                    </tr>
+                  </table>
+                </div>
+
+                <div id="SERVICO" class="container ">
+                    <h4>LG09 - Vagas</h4>
+                    <table class="responsive-table centered">
+                      <tr>
+                        <th class="th">
+                          Sinônimos
+                        </th>
+                        <th class="th">
+                            vacancies<br>
+                            vaga<br>
+                            disponíveis<br>
+                        </th>
+                      </tr>
+                      <tr>
+                        <th class="th">
+                          Noção
+                        </th>
+                        <th class="th">
+                        Um <a href="lex_geral.html#SERVICO">Serviço</a>que não Foi Reservado
+                          </th>
+                      </tr>
+                      <tr>
+                        <th class="th">
+                          Impacto
+                        </th>
+                        <th class="th">
+                           <a href="lex_geral.html#HOSPEDE">Hóspede</a>Recebe Remuneração pelo
+                           <a href="lex_geral.html#SERVICO">Serviço</a>.
+                      </tr>
+                      <tr>
+                        <th class="th">
+                          Classificação
+                        </th>
+                        <th class="th">Verbo</th>
+                      </tr>
+                    </table>
+                  </div>
+                  <div id="FAZPAGAMENTO" class="container ">
+                      <h4>LG10 - Faz Pagamento</h4>
+                      <table class="responsive-table centered">
+                        <tr>
+                          <th class="th">
+                            Sinônimos
+                          </th>
+                          <th class="th">
+                              do payment
+                          </th>
+                        </tr>
+                        <tr>
+                          <th class="th">
+                            Noção
+                          </th>
+                          <th class="th">
+                            Atividade realizada pelo <a href="lex_geral.html#HOSPEDE">Hóspede</a> no momento em que
+                            contrata o serviço oferecido pelo  <a href="lex_geral.html#ANFITRIAO">Anfrião</a>.
+
+                            </th>
+                        </tr>
+                        <tr>
+                          <th class="th">
+                            Impacto
+                          </th>
+                          <th class="th">
+                             <a href="lex_geral.html#HOSPEDE">Hóspede</a>Recebe Remuneração pelo
+                             <a href="lex_geral.html#SERVICO">Serviço</a>.
+                        </tr>
+                        <tr>
+                          <th class="th">
+                            Classificação
+                          </th>
+                          <th class="th">Verbo</th>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="RECEBEREMUNERACAO" class="container ">
+                        <h4>LG11 - Recebe Remuneração</h4>
+                        <table class="responsive-table centered">
+                          <tr>
+                            <th class="th">
+                              Sinônimos
+                            </th>
+                            <th class="th">
+                                get payment
+                            </th>
+                          </tr>
+                          <tr>
+                            <th class="th">
+                              Noção
+                            </th>
+                            <th class="th">
+                               <a href="lex_geral.html#ANFITRIAO">Anfrião</a> atravéz do
+                              <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>o pagamento pela prestação do
+                              <a href="lex_geral.html#SERVICO">Serviço</a>.
+                              </th>
+                          </tr>
+                          <tr>
+                            <th class="th">
+                              Impacto
+                            </th>
+                            <th class="th">
+                              <a href="lex_geralm.html#BRA-Acomodações">BRA-Acomodações</a>faz a intermediação e recebe porcentagem
+
+                          </tr>
+                          <tr>
+                            <th class="th">
+                              Classificação
+                            </th>
+                            <th class="th">Verbo</th>
+                          </tr>
+                        </table>
+                      </div>
+
+                      <div id="SERRESERVADA" class="container ">
+                          <h4>LG12 - Ser Reservada</h4>
+                          <table class="responsive-table centered">
+                            <tr>
+                              <th class="th">
+                                Sinônimos
+                              </th>
+                              <th class="th">
+                                  be reserved<br>
+                                  ser locada <br>
+                                  foi reservada <br>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th class="th">
+                                Noção
+                              </th>
+                              <th class="th">
+                                  Atividade realizada pelo
+                                 <a href="lex_geral.html#HOSPEDE">Hospede</a> no momento em que se confirma a locação do
+                                 <a href="lex_geral.html#SERVICO">Serviço</a>desejado com o <a href="lex_geral.html#ANFITRIAO">Anfrião</a>.
+                                </th>
+                            </tr>
+                            <tr>
+                              <th class="th">
+                                Impacto
+                              </th>
+                              <th class="th">
+                                  O <a href="lex_geral.html#SERVICO">Serviço</a>fica indisponível para outro <a href="lex_geral.html#HOSPEDE">Hospede</a> no
+                                  período que ele foi reservado.
+                            </tr>
+                            <tr>
+                              <th class="th">
+                                Classificação
+                              </th>
+                              <th class="th">Verbo</th>
+                            </tr>
+                          </table>
+                        </div>
+
+                        <div id="AVALIACAO" class="container ">
+                            <h4>LG13 - Avaliação</h4>
+                            <table class="responsive-table centered">
+                              <tr>
+                                <th class="th">
+                                  Sinônimos
+                                </th>
+                                <th class="th">
+                                    opinião<br>
+                                    julgamento <br>
+                                    análise <br>
+                                    nota
+                                </th>
+                              </tr>
+                              <tr>
+                                <th class="th">
+                                  Noção
+                                </th>
+                                <th class="th">
+                                    Nota atribuida à alguma pessoa, (<a href="
+                                    lex_geral#ANFITRIAO">anfitrião</a> ou <a href="lex_geral.html#HOSPEDE">hóspede</a> ), à um lugar,
+                                   <a href="lex_geral.html#ACOMODACAO">acomodação</a>  ou <a href="lex_geral.html#RESTAURANTES">restaurante</a> à uma
+                                   <a href="lex_geral.html#EXPERIENCIA">experiência</a>.
+                                  </th>
+                              </tr>
+                              <tr>
+                                <th class="th">
+                                  Impacto
+                                </th>
+                                <th class="th">
+                                    O <a href="lex_geral.html#HOSPEDE">hóspede</a> visualiza a avaliação<br>
+                                    O <a href="lex_geral.html#HOSPEDE">hóspede</a> dá uma <a href="lex_geral.html#AVALIACAO">avaliação</a><br>
+                                    O <a href="lex_geral.html#ANFITRIAO">anfitrião</a> visualiza a <a href="lex_geral.html#AVALIACAO">avaliação</a><br>
+                                    O <a href="lex_geral.html#ANFITRIAO">anfitrião</a> dá uma <a href="lex_geral.html#AVALIACAO">avaliação</a><br>
+                                    O <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>  ordena por <a href="lex_geral.html#AVALIACAO">avaliação</a><br>
+
+                              </tr>
+                              <tr>
+                                <th class="th">
+                                  Classificação
+                                </th>
+                                <th class="th">Objeto</th>
+                              </tr>
+                            </table>
+                          </div>
+
+                          <div id="INTERNET" class="container ">
+                              <h4>LG14 - Internet</h4>
+                              <table class="responsive-table centered">
+                                <tr>
+                                  <th class="th">
+                                    Sinônimos
+                                  </th>
+                                  <th class="th">
+                                      web<br>
+                                      rede
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th class="th">
+                                    Noção
+                                  </th>
+                                  <th class="th">
+                                      Rede mundial que, pela troca virtual de dados e mensagens, une computadores particulares, smartphones, organizações de pesquisa, institutos de cultura, institutos militares, bibliotecas, corporações de todos os tamanhos; rede mundial de computadores.
+                                    </th>
+                                </tr>
+                                <tr>
+                                  <th class="th">
+                                    Impacto
+                                  </th>
+                                  <th class="th">
+                                      O <a href="lex_geral.html#USUARIO">usuário</a> conecta-se a internet para obter informações do <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>
+                                      O <a href="lex_geral.html#USUARIO">usuário</a> conecta-se a internet para submeter informações parao <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a>
+                                </tr>
+                                <tr>
+                                  <th class="th">
+                                    Classificação
+                                  </th>
+                                  <th class="th">Objeto</th>
+                                </tr>
+                              </table>
+                            </div>
+
+                              <div id="QUESITOBUSCA" class="container ">
+                                  <h4>LG15 - Quesitos de Busca</h4>
+                                  <table class="responsive-table centered">
+                                    <tr>
+                                      <th class="th">
+                                        Sinônimos
+                                      </th>
+                                      <th class="th">
+                                          quesitos<br>
+                                          aributos de busca
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <th class="th">
+                                        Noção
+                                      </th>
+                                      <th class="th">
+                                          Atributos utilizados para que o <a href="lex_geral.html#USUARIO">usuário</a>
+                                          possa buscar um <a href="lex_geral.html#SERVICO"></a> Serviço
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                      <th class="th">
+                                        Impacto
+                                      </th>
+                                      <th class="th">
+                                          O <a href="lex_geral.html#USUARIO">usuário</a> realiza as interações com o <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a> através do smartphone
+                                          São eles: “Onde”, “Check-in”, “Checkout” e <a href=""></a> “Hóspede“(quantidade de hóspedes).
+
+                                        </tr>
+                                    <tr>
+                                      <th class="th">
+                                        Classificação
+                                      </th>
+                                      <th class="th">Objeto</th>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div id="SMARTPHONE" class="container ">
+                                    <h4>LG16 - Smartphone</h4>
+                                    <table class="responsive-table centered">
+                                      <tr>
+                                        <th class="th">
+                                          Sinônimos
+                                        </th>
+                                        <th class="th">
+                                            celular<br>
+                                            smartphone
+                                        </th>
+                                      </tr>
+                                      <tr>
+                                        <th class="th">
+                                          Noção
+                                        </th>
+                                        <th class="th">
+                                            Telefone inteligente com um sistema operacional configurável
+                                          </th>
+                                      </tr>
+                                      <tr>
+                                        <th class="th">
+                                          Impacto
+                                        </th>
+                                        <th class="th">
+                                            O <a href="lex_geral.html#USUARIO">usuário</a> realiza as interações com o <a href="lex_geral.html#BRA-Acomodações">BRA-Acomodações</a> através do smartphone
+                                      </tr>
+                                      <tr>
+                                        <th class="th">
+                                          Classificação
+                                        </th>
+                                        <th class="th">Objeto</th>
+                                      </tr>
+                                    </table>
+                                  </div>
+
+
+                                    <div id="ONDE" class="container ">
+                                        <h4>LG18 - Onde</h4>
+                                        <table class="responsive-table centered">
+                                          <tr>
+                                            <th class="th">
+                                              Sinônimos
+                                            </th>
+                                            <th class="th">
+                                                localização<br>
+                                                local<br>
+                                                endereço
+                                            </th>
+                                          </tr>
+                                          <tr>
+                                            <th class="th">
+                                              Noção
+                                            </th>
+                                            <th class="th">
+                                                Localização geográfica ou endereço de onde se encontra o <a href="lex_geral.html#SERVICO">serviço</a>.
+                                              </th>
+                                          </tr>
+                                          <tr>
+                                            <th class="th">
+                                              Impacto
+                                            </th>
+                                            <th class="th">
+                                                O <a href="lex_geral.html#USUARIO">usuário</a> realiza uma busca por um  <a href="lex_geral.html#SERVICO">Serviço</a> por meio de sua Localização
+                                              </tr>
+                                          <tr>
+                                            <th class="th">
+                                              Classificação
+                                            </th>
+                                            <th class="th">Objeto</th>
+                                          </tr>
+                                        </table>
+                                      </div>
+                                      <div id="ONDE" class="container ">
+                                          <h4>LG19 - Check-in</h4>
+                                          <table class="responsive-table centered">
+                                            <tr>
+                                              <th class="th">
+                                                Sinônimos
+                                              </th>
+                                              <th class="th">
+                                                  dar entrada<br>
+                                                  apresentar-se<br>
+                                              </th>
+                                            </tr>
+                                            <tr>
+                                              <th class="th">
+                                                Noção
+                                              </th>
+                                              <th class="th">
+                                                  Data inicio, na qual o <a href="lex_geral.html#SERVICO">Serviço</a> será reservado.
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                              <th class="th">
+                                                Impacto
+                                              </th>
+                                              <th class="th">
+                                                  A apartir desse dia o  <a href="lex_geral.html#SERVICO">Serviço</a> reservado ficará indisponível para outro <a href="lex_geral.html#HOSPEDE">Hospede</a> até o <a href="lex_geral.html#CHECKOUT">Checkout</a>.
+                                                </tr>
+                                            <tr>
+                                              <th class="th">
+                                                Classificação
+                                              </th>
+                                              <th class="th">Verbo</th>
+                                            </tr>
+                                          </table>
+                                        </div>
+                                        <div id="ONDE" class="container ">
+                                            <h4>LG20 - Checkout</h4>
+                                            <table class="responsive-table centered">
+                                              <tr>
+                                                <th class="th">
+                                                  Sinônimos
+                                                </th>
+                                                <th class="th">
+                                                    dar saída<br>
+                                                    encerrar reserva<br>
+                                                </th>
+                                              </tr>
+                                              <tr>
+                                                <th class="th">
+                                                  Noção
+                                                </th>
+                                                <th class="th">
+                                                    Data final, na qual o <a href="#SERVICO">Serviço</a> será reservado.
+                                                  </th>
+                                              </tr>
+                                              <tr>
+                                                <th class="th">
+                                                  Impacto
+                                                </th>
+                                                <th class="th">
+                                                    A apartir desse dia o <a href="#SERVICO">Serviço</a> reservado volta a estar disponível para outro Hospede.
+                                                  </tr>
+                                              <tr>
+                                                <th class="th">
+                                                  Classificação
+                                                </th>
+                                                <th class="th">Verbo</th>
+                                              </tr>
+                                            </table>
+                                          </div>
+                                          
+
+                                          <footer class="page-footer grey darken-3">
+                                            <div class="container center-align">
+                                              <span class="site-footer-credits">
+                                                <b>BRA-Acomodações</b>
+                                                , Requisitos de Software,
+                                                <b> FGA UnB</b>
+                                              </span>
+                                            </div>
+                                          </footer>
+    </body>
